@@ -73,6 +73,20 @@ switch (operator) {
 console.log("Result:", result);
 
 // Check positive/negative/zero.
+// function check(num) {
+//     if (num > 0) {
+//         console.log("Positive");
+//     } else if (num < 0) {
+//         console.log("nagetive");
+//     } else{
+//         console.log("zero");
+//     }
+// }
+// function check(num) {
+//     let res = num > 0 ? "Positive" : (num < 0 ? "Negative" : "Zero");
+//     console.log(res);
+// }
+// check(10)
 
 // Check divisible by 5 and 11.
 
