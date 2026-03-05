@@ -12,6 +12,7 @@ const userAge = readlineSync.question('May I know your age? ');
 const userAgeNumber = Number(userAge);
 
 // Check if the conversion was successful
+// !isNaN() is a function that checks if the value is Not-a-Number (NaN). If the value is a valid number, it returns false; if it's not a valid number, it returns true. By using the logical NOT operator (!), we can check if the value is a valid number before performing calculations.
 if (!isNaN(userAgeNumber)) {
     const currentYear = new Date().getFullYear();
     const birthYear = currentYear - userAgeNumber;
